@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Open+Sans:ital,wdth@0,87.5;1,87.5&display=swap" rel="stylesheet">
+    <!-- Typed.js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>GD216 - About Gabriel</title>
+</head>
+<body>
+    <div class="content">
+        <!-- Navbar with mail-to links -->
+        <div class="navbar">
+            <div class="navbutton">
+                <h3 class="navtext"><a href="mailto:gjaveri@pdaeducation.com">Home</a></h3>
+            </div>
+            <div class="navbutton">
+                <h3 class="navtext"><a href="mailto:gjaveri@pdaeducation.com">About Me</a></h3>
+            </div>
+            <div class="navbutton">
+                <h3 class="navtext"><a href="mailto:gjaveri@pdaeducation.com">Contact</a></h3>
+            </div>
+        </div>
+        <!-- Image of my logo -->
+        <div class="image">
+            <img src="Images/GJ_Logo.png" alt="Gabriel's logo from year 1">
+        </div>
+        <div class="name">
+            <h1>Gabriel Javeri</h1>
+        </div>
+        <!-- Description, utilizing Typed.js to type itself out one letter at a time -->
+        <div class="description">
+            <p>Pacific Design Academy second-year graphic design student,<br>generally nerdy human being.</p>
+            <p>My goal for the program is to learn about everything a graphic designer can do<br>at a professional level, as well as gain industry experience and look for jobs.<br><br>Outside of my studies, I am on a mission to explore<br>both physical and digital art forms, and I'm a lifelong learner.</p>
+            <p>My current hobbies include video editing, gaming, digital illustration,<br>animation, music production, and coding.</p>
+        </div>
+        <span id="typed"></span>
+        <!-- Favourite music genre list -->
+        <h3 class="music">Favorite music is anything electronic, but these are my top genres:</h3>
+        <div class="list">
+            <ul>
+                <li>Electro House</li>
+                <li>Progressive House</li>
+                <li>Techno</li>
+                <li>French House</li>
+                <li>Trance</li>
+            </ul>
+        </div>
+        <!-- Table with copyright info -->
+        <table>
+            <tr>
+                <th>
+                    Coded by Gabriel Javeri, 2024
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    for GD216 - Web Programming II
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    taught by Nabil Nazri
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- Typed.js code -->
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '.description',
+            typeSpeed: 25,
+            loop: true,
+            showCursor: false,
+        });
+    </script>
+</body>
+</html>
